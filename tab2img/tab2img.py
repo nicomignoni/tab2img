@@ -2,14 +2,15 @@ import numpy as np
 from math import ceil, sqrt
 
 class Tab2Img:
-    def __init__(self, lazy=False):
-        self.lazy = lazy
+    def __init__(self, save_name=None, allow_pickle=False):
+        self.save_path = save_path
+        self.allow_pickle allow_pickle
 
     def fit_transform(self, X, Y):
         n_sample, n_attrs = X.shape
         size = ceil(sqrt(n_attrs))
 
-        # Delete constant features (std == 0) 
+        # Delete constant features (std == 0) from X
         std_X             = np.std(X, axis=0, ddof=0)
         constant_features = np.where(std_X == 0)
         X                 = np.delete(X, costant_features, axis=1)
@@ -41,6 +42,7 @@ class Tab2Img:
                     row, col = closest_sqrt, closest_sqrt - ceil(distance/2)
             images[:, int(row-1), int(col-1)] = X[:, index]
 
+        if self.save_name: np.save(save_path, allow_pickle=allow_pickle)
         return images
 
 

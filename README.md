@@ -1,4 +1,4 @@
-# tab2img
+# Tab2Img: from tabular data to images
 A tool to convert tabular data into images for CNN. Inspired by the [DeepInsight](https://www.nature.com/articles/s41598-019-47765-6) paper.
 
 ## Background
