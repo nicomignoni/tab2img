@@ -17,7 +17,7 @@ Given ![equation](https://latex.codecogs.com/gif.latex?X) and ![equation](https:
 
  the vector ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y%29%20%3D%20%28%5Crho_1%2C%20...%2C%20%5Crho_n%29) express the Pearson correlation coefficient
  
- ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28x%2C%20y%29%20%3D%20%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%7Bx%7D%7D%29%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%7D%7B%7B%5Csqrt%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%5E%7B2%7D%7D%7D%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%5E%7B2%7D%7D%7D%7D)
+ ![equation](https://latex.codecogs.com/gif.latex?%5Crho%20%3D%20%5Cfrac%7B%5Ctext%7Bcov%7D%28x%2C%20y%29%7D%7B%5Csigma%28x%29%5Csigma%28y%29%7D)
 
 where 
 
@@ -27,8 +27,12 @@ At this point ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cbold%7BJ%7D%20%3D%20%28J_k%20%5C%20%3A%20%5C%20%5Crho%28X_%7BJ_k%7D%29%20%5Cgeq%20%5Crho%28X_%7BJ_%7Bk-1%7D%7D%29%2C%20k%20%5Cin%20%5C%5B1%2C%20...%2C%20n%5D%29)
 
+Eventually, the final tensor ![equation](https://latex.codecogs.com/gif.latex?M) is
 ![equation](https://latex.codecogs.com/gif.latex?M%20%3D%20%5Cbegin%7Bpmatrix%7D%20X_%7BJ_1%7D%20%26%20X_%7BJ_2%7D%20%26%20X_%7BJ_5%7D%20%26%20%5Ccdots%20%5C%5C%20X_%7BJ_3%7D%20%26%20X_%7BJ_4%7D%20%26%20X_%7BJ_7%7D%20%26%20%5Ccdots%20%5C%5C%20X_%7BJ_6%7D%20%26%20X_%7BJ_8%7D%20%26%20X_%7BJ_9%7D%20%26%20%5Ccdots%20%5C%5C%20%5Cvdots%20%26%20%5Cvdots%20%26%20%5Cvdots%20%26%20%5Cddots%20%5Cend%7Bpmatrix%7D)
 
-![equation](https://latex.codecogs.com/gif.latex?%5Crho%20%3D%20%5Cfrac%7B%5Ctext%7Bcov%7D%28x%2C%20y%29%7D%7B%5Csigma%28x%29%5Csigma%28y%29%7D)
+The function that maps ![equation](https://latex.codecogs.com/gif.latex?J_k) to the right row and column ![equation](https://latex.codecogs.com/gif.latex?(r, c)) of $M$ is
+
+
+
 
 
