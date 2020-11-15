@@ -17,7 +17,7 @@ Given ![equation](https://latex.codecogs.com/gif.latex?X) and ![equation](https:
 
 ![equation](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bpmatrix%7D%20x%5E%7B%281%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%281%29%7D_n%20%5C%5C%20%5Cvdots%20%26%20%5Cddots%20%26%20%5Cvdots%20%5C%5C%20x%5E%7B%28m%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%28m%29%7D_n%20%5Cend%7Bpmatrix%7D%2C%20%5Cquad%20Y%20%3D%20%5Cbegin%7Bpmatrix%7D%20y%5E%7B%281%29%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20y%5E%7B%28m%29%7D%29%20%5Cend%7Bpmatrix%7D)
 
- the vector ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y%29%20%3D%20%28%5Crho_1%2C%20...%2C%20%5Crho_n%29) express the Pearson correlation coefficient
+ the vector ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y%29%20%3D%20%28%5Crho_1%2C%20...%2C%20%5Crho_n%29) express the Pearson correlation coefficient[^1]
  
  ![equation](https://latex.codecogs.com/gif.latex?%5Crho%20%3D%20%5Cfrac%7B%5Ctext%7Bcov%7D%28x%2C%20y%29%7D%7B%5Csigma%28x%29%5Csigma%28y%29%7D)
 
@@ -39,6 +39,7 @@ The function that maps ![equation](https://latex.codecogs.com/gif.latex?J_k) to 
 
 [^1]: In this case, being $X$ a sample, the coefficient is implemented as 
 
+![equation](https://latex.codecogs.com/gif.latex?%5Crho%28x%2Cy%29%20%3D%20%5Cfrac%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%7D%7B%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%5E%7B2%7D%7D%7D%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%5E%7B2%7D%7D%7D%7D)
 
 
 
