@@ -47,7 +47,16 @@ In this case, being ![equation](https://latex.codecogs.com/gif.latex?X) a sample
 
 ## Example
 
-<p align="left">
-  <img src="https://github.com/nicomignoni/tab2img/blob/master/docs/example.png"/>
-</p>
+```python
+from sklearn.datasets import fetch_covtype
+from tab2img.converter import Tab2Img
+
+dataset = fetch_covtype()
+
+train = dataset.data
+target = dataset.target
+
+model = Tab2Img()
+images = model.fit_transform(train, target)
+```
 
