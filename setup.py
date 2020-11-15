@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tab2img",
-    version="0.9.0",
+    version="1.0.2",
     author="Nicola Mignoni",
-    author_email="",
+    author_email="nicola.mignoni@gmail.com",
     description="A tool to convert tabular data into images, in order to be used by CNN. Inspired by the 'DeepInsight' paper.",
     long_description=long_description,
     long_description_content_type="text/markdown",
