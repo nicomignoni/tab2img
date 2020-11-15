@@ -23,7 +23,7 @@ Given ![equation](https://latex.codecogs.com/gif.latex?X) and ![equation](https:
 
  the vector ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y%29%20%3D%20%28%5Crho_1%2C%20...%2C%20%5Crho_n%29) express the Pearson correlation coefficient*
  
-<div align="center"><img src="https://latex.codecogs.com/gif.latex?%5Crho%20%3D%20%5Cfrac%7B%5Ctext%7Bcov%7D%28x%2C%20y%29%7D%7B%5Csigma%28x%29%5Csigma%28y%29%7D"></div>
+<div align="center"><img src="https://latex.codecogs.com/gif.latex?%5Crho%20%3D%20%5Cfrac%7B%5Ctext%7Bcov%7D%28x%2C%20y%29%7D%7B%5Csigma%28x%29%5Csigma%28y%29%7D></div>
 
 where 
 
