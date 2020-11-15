@@ -14,6 +14,6 @@ There are numerous ways to choose ![equation](https://latex.codecogs.com/gif.lat
 Given ![equation](https://latex.codecogs.com/gif.latex?X) and ![equation](https://latex.codecogs.com/gif.latex?Y) as
 
 <div align="center"> 
-  ![equation](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bpmatrix%7D%20x%5E%7B%281%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%281%29%7D_n%20%5C%5C%20%5Cvdots%20%26%20%5Cddots%20%26%20%5Cvdots%20%5C%5C%20x%5E%7B%28m%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%28m%29%7D_n%20%5Cend%7Bpmatrix%7D%2C%20%5Cquad%20Y%20%3D%20%5Cbegin%7Bpmatrix%7D%20y%5E%7B%281%29%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20y%5E%7B%28m%29%7D%29%20%5Cend%7Bpmatrix%7D)
+  ![equation](https://latex.codecogs.com/gif.latex?   X%20%3D%20%5Cbegin%7Bpmatrix%7D%20x%5E%7B%281%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%281%29%7D_n%20%5C%5C%20%5Cvdots%20%26%20%5Cddots%20%26%20%5Cvdots%20%5C%5C%20x%5E%7B%28m%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%28m%29%7D_n%20%5Cend%7Bpmatrix%7D%2C%20%5Cquad%20Y%20%3D%20%5Cbegin%7Bpmatrix%7D%20y%5E%7B%281%29%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20y%5E%7B%28m%29%7D%29%20%5Cend%7Bpmatrix%7D)
 </div>
 
