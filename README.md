@@ -40,7 +40,7 @@ The function that maps ![equation](https://latex.codecogs.com/gif.latex?J_k) to 
 
 *In this case, being ![equation](https://latex.codecogs.com/gif.latex?X) a sample, the coefficient is implemented as 
 
-![equation](https://latex.codecogs.com/gif.latex?%5Crho%28x%2Cy%29%20%3D%20%5Cfrac%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%7D%7B%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%5E%7B2%7D%7D%7D%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%5E%7B2%7D%7D%7D%7D)
+![equation](https://latex.codecogs.com/gif.latex?%5Cbegin%7Balign*%7D%20%5Crho%28x%2Cy%29%20%3D%20%5Cfrac%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%7D%7B%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%5E%7B2%7D%7D%7D%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%5E%7B2%7D%7D%7D%7D%20%5Cend%7Balign*%7D)
 
 
 
