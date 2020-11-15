@@ -36,8 +36,9 @@ The function that maps ![equation](https://latex.codecogs.com/gif.latex?J_k) to 
 
 ![equation](https://latex.codecogs.com/gif.latex?%28r%2Cc%29_k%20%3D%20%5Cbegin%7Bcases%7D%20%28%5Csqrt%7Bk%7D%2C%20%5Csqrt%7Bk%7D%29%20%26%20%5Ctext%7Bif%7D%20%5C%20%5Csqrt%7Bk%7D%20%5Cin%20%5Cmathbb%7BN%7D%20%5C%5C%20%28%5Clceil%5Csqrt%7Bk%7D%5Crceil%2C%20%5Clceil%5Csqrt%7Bk%7D%5Crceil%20-%20%5Cfrac%7B1%7D%7B2%7D%28%5Clceil%5Csqrt%7Bk%7D%5Crceil%5E2%20-%20k%29%29%20%26%20%5Ctext%7Bif%7D%20%5C%20%5Csqrt%7Bk%7D%20%5Cnotin%20%5Cmathbb%7BN%7D%20%5C%20%5Ctext%7Band%7D%20%5C%20%5Clceil%5Csqrt%7Bk%7D%5Crceil%5E2%20-%20k%20%3D%200%20%5Cmod%7B2%7D%20%5C%5C%20%28%5Clceil%5Csqrt%7Bk%7D%5Crceil%20-%20%5Clceil%5Cfrac%7B1%7D%7B2%7D%28%5Clceil%5Csqrt%7Bk%7D%5Crceil%5E2%20-%20k%29%5Crceil%2C%20%5Clceil%5Csqrt%7Bk%7D%5Crceil%29%20%26%20%5Ctext%7Bif%7D%20%5C%20%5Csqrt%7Bk%7D%20%5Cnotin%20%5Cmathbb%7BN%7D%20%5C%20%5Ctext%7Band%7D%20%5C%20%5Clceil%5Csqrt%7Bk%7D%5Crceil%5E2%20-%20k%20%5Cneq%200%20%5Cmod%7B2%7D%20%5Cend%7Bcases%7D)
 
---
-* : In this case, being ![equation](https://latex.codecogs.com/gif.latex?X) a sample, the coefficient is implemented as 
+---
+
+*In this case, being ![equation](https://latex.codecogs.com/gif.latex?X) a sample, the coefficient is implemented as 
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28x%2Cy%29%20%3D%20%5Cfrac%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%7D%7B%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28x_%7Bi%7D-%7B%5Cbar%20%7Bx%7D%7D%29%5E%7B2%7D%7D%7D%7B%5Csqrt%20%7B%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%28y_%7Bi%7D-%7B%5Cbar%20%7By%7D%7D%29%5E%7B2%7D%7D%7D%7D)
 
