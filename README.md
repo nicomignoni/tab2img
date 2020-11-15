@@ -13,4 +13,6 @@ The Figure illustrates the main idea: given a training dataset ![equation](https
 There are numerous ways to choose ![equation](https://latex.codecogs.com/gif.latex?M). In this implementation, the features are organized with respect to the correlation vector ![equation](https://latex.codecogs.com/gif.latex?%5Crho%28X%2C%20Y%29), where ![equation](https://latex.codecogs.com/gif.latex?Y%20%5Cin%20%5Cmathbb%7BR%7D%5E%7B1%20%5Ctimes%20m%7D) is the target vector.
 Given ![equation](https://latex.codecogs.com/gif.latex?X) and ![equation](https://latex.codecogs.com/gif.latex?Y) as
 
-![equation](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bpmatrix%7D%20x%5E%7B%281%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%281%29%7D_n%20%5C%5C%20%5Cvdots%20%26%20%5Cddots%20%26%20%5Cvdots%20%5C%5C%20x%5E%7B%28m%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%28m%29%7D_n%20%5Cend%7Bpmatrix%7D%2C%20Y%20%3D%20%5Cbegin%7Bpmatrix%7D%20y%5E%7B%281%29%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20y%5E%7B%28m%29%7D%29%20%5Cend%7Bpmatrix%7D)
+<p align='center'>
+  ![equation](https://latex.codecogs.com/gif.latex?X%20%3D%20%5Cbegin%7Bpmatrix%7D%20x%5E%7B%281%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%281%29%7D_n%20%5C%5C%20%5Cvdots%20%26%20%5Cddots%20%26%20%5Cvdots%20%5C%5C%20x%5E%7B%28m%29%7D_1%20%26%20%5Ccdots%20%26%20x%5E%7B%28m%29%7D_n%20%5Cend%7Bpmatrix%7D%2C%20Y%20%3D%20%5Cbegin%7Bpmatrix%7D%20y%5E%7B%281%29%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20y%5E%7B%28m%29%7D%29%20%5Cend%7Bpmatrix%7D)
+<\p>
