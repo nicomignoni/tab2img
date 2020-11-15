@@ -47,4 +47,7 @@ In this case, being ![equation](https://latex.codecogs.com/gif.latex?X) a sample
 
 ## Example
 
-![Usage example](https://github.com/nicomignoni/tab2img/blob/main/docs/example.png)
+<p align="left">
+  <img src="https://github.com/nicomignoni/tab2img/blob/master/docs/example.png"/>
+</p>
+
