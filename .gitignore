@@ -1,2 +1,4 @@
-__pycache__/*
-tab2img.egg-info/*
+__pycache__
+*.egg-info
+build
+dist
